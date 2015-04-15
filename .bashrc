@@ -125,3 +125,7 @@ function cd() {
 function mkdir() {
     command mkdir $1 && cd $1;
 }
+
+#aliases
+alias jetson="ssh -X vincent@192.168.1.140"
+alias nps3="ssh -X vincent@nps3.missouri.edu"
